@@ -64,7 +64,7 @@
   - int boardIndex = indexOf(no); 
     -> int 데이터 타입인 boardIndex 변수에 indexOf(no) 만든 걸 넣겠다.
 
-# 2021_07_26 (06-b -> 07-a)
+# 2021_07_26 (06-b->07-a)
   - App파일이 BoardHandler를 사용할 때 (non-static 메서드)
     - new로 인스턴스를 생성
     - 인스턴스 주소값을 저장하는 boardHandler를 불러서 메서드 호출
