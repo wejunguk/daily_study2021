@@ -225,3 +225,8 @@
   - fuction이나 structure, class 등의 코드를 모아둔 파일 = '라이브러리(Library)' ex) *.dll / *.lib / *.so / *.jar
   - 링킹을 했을 때, *.exe 파일이 만들어 지는데 그 안에 파일정보만 포함된 파일이 있고(*.dll), 실행가능한 파일이 들어 있다.(*.lib)
     (java-basic_io_ex01_730 731 732 -> 740에서 연습)
+
+## 2021_09_10 (Design pattern- Decorator 패턴) - 기존 기능 확장
+  - 상속을 사용하지 않고 기존의 기능에 새 기능을 덧붙이는 방법
+  - 추상메서더 Printer을 만들어 파라미터로 origin을 받아 사용하기
+    - composit이랑 차이점:
