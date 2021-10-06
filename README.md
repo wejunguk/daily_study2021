@@ -304,5 +304,24 @@
   - socket의 고유번호가 있는데 그것이 바로 port번호! port번호가 필요한 이유는? 
 
 ## 2021_10_01 (Thread)
-  - dao패키지(★★★) - 그림참고 80page
+  - dao패키지(★★★) - 그림참고
+
+## 2021_10_05 (MariaDB 설치, 사용자/DB 생성)
+
+## 2021_10_06 (MariaDB 요청 경로, SQL)
+  - DDL : 데이터를 저장하고 다룰 DB객체(Table,View,Procedure,Function...)를 정의한다.
+  - DQL/DML : DB객체의 데이터를 다룬다.
+
+   * DBMS *
+  - 데이터를 저장하려면 먼저 테이블을 만든다. (테이블명,항목,항목들의 데이터 타입 정의 후 테이블 생성)
+  - insert into test1(no,name) values(1, 'aaa'); // 테이블의 no,name 순서대로  1과 aaa를 넣어라
+  - select * from test1; // test1에 있는 모든 컬럼의 데이터를 출력하라
+  - insert into test1(no, name) values(null, 'bbb'); // 행의 값 추가, 
+  - insert into test1(no, name) values(null, null); // 값을 입력 했지만, 칸이 비워져있는 상태
+
+  * Key *
+  - 여러개의 Key값들 중, DB관리자가 주 키로 결정한 Key = Primary Key
+  - 여러개의 Key 값들 중 주 키로 선정되지 않은 나머지 후보 Key(대안키) = Alternate Key 
+  - 마땅히 사용할 Key가 없는 경우 -> 임의의 컬럼을 만들어 PK로 지정한다 = Artificial Key(인공키) ex) 게시글번호, 일련번호
+  - 
 
