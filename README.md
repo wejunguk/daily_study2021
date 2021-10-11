@@ -306,7 +306,21 @@
 ## 2021_10_01 (Thread)
   - dao패키지(★★★) - 그림참고
 
-## 2021_10_05 (MariaDB 설치, 사용자/DB 생성)
+## ☆ 2021_10_05 (MariaDB 설치, 사용자/DB 생성) 
+   - DBMS : Datebase를 조작하는 S/W  ex)Oracle, MySQL, DB2, MS-SQL, Alitibase, Tibero ...등
+   - SQL : 데이터 처리요청을 작성하는 문법
+   - MariaDB 설치 : eomcs_docs_dbms / 환경변수 설정
+   - SQL테스트 준비
+   - 테이블 생성 : eomcs_docs_sql
+
+  > create table test01(
+      no int not null,
+      name varchar(20) default 'noname',
+      age int default 20
+    ); 후
+  > insert into test01(no, name, age) values(1, null, null); 
+    - name, age 값에 디폴트값이 들어가는게 아니라 null 값이 들어간다!!
+
 
 ## 2021_10_06 (MariaDB 요청 경로, SQL)
   - DDL : 데이터를 저장하고 다룰 DB객체(Table,View,Procedure,Function...)를 정의한다.
