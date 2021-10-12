@@ -306,10 +306,12 @@
 ## 2021_10_01 (Thread)
   - dao패키지(★★★) - 그림참고
 
-## ☆ 2021_10_05 (MariaDB 설치, 사용자/DB 생성) 
+## 2021_10_05 (MariaDB 설치, 사용자/DB 생성) ☆
    - DBMS : Datebase를 조작하는 S/W  ex)Oracle, MySQL, DB2, MS-SQL, Alitibase, Tibero ...등
    - SQL : 데이터 처리요청을 작성하는 문법
    - MariaDB 설치 : eomcs_docs_dbms / 환경변수 설정
+
+   
    - SQL테스트 준비
    - 테이블 생성 : eomcs_docs_sql
 
@@ -322,7 +324,7 @@
     - name, age 값에 디폴트값이 들어가는게 아니라 null 값이 들어간다!!
 
 
-## 2021_10_06 (MariaDB 요청 경로, SQL)
+## 2021_10_06 (MariaDB 요청 경로, SQL) ☆
   - DDL : 데이터를 저장하고 다룰 DB객체(Table,View,Procedure,Function...)를 정의한다.
   - DQL/DML : DB객체의 데이터를 다룬다.
 
@@ -337,8 +339,12 @@
   - 여러개의 Key값들 중, DB관리자가 주 키로 결정한 Key = Primary Key
   - 여러개의 Key 값들 중 주 키로 선정되지 않은 나머지 후보 Key(대안키) = Alternate Key 
   - 마땅히 사용할 Key가 없는 경우 -> 임의의 컬럼을 만들어 PK로 지정한다 = Artificial Key(인공키) ex) 게시글번호, 일련번호
+  - Primary key : 기본이 not null
+  - PK 처럼 제약을 줘서 중복을 막는 문법 [UNIQUE]
+  - view가 참조하는 테이블에 데이터를 입력한 후 view를 조회하면?
+    => 새로 추가된 컬럼이 함께 조회된다.
   
-## 2021_10_07
+## 2021_10_07 => SQL 이게 Point!!!!!!
 
 ## 2021_10_08 (Join, DBMS, JDBC 프로그래밍, )
   - 1) cross 조인(카티션 곱)
@@ -349,6 +355,14 @@
   * 질문 : JDBC 와 JDBC Driver 의 차이점은?
   
   - 드라이버와 DBMS 관계
+
+## 2021_10_11
+  - SQL 10/05, 10/06 부분 복습
+  - 디스코드 모여 프로젝트 진행
+
+## 2021_10_12 (JDBC / java-basic_jdbc_ex1~ex4)
+  - JDBC 버전을 쉽게 수정 : jdbc-driver.properties 에 사용할 버전 수정
+  - 
 
   
   
