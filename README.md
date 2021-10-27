@@ -423,11 +423,17 @@
     : web server와 연동하고 표준적인 방법을 정의한 것
   - JavaEE(Enterprise Edition), Implements(구현체:JavaEE명세서에 따라 만든 서버)
   - 프로램 버전에 맞게 언어를 사용하고, 개발해야 한다.
-  - Tocat서버 준비(9.xx)
+  - Tocat서버 준비(9.xx)ㄹ 
     - 1) Servlet container 설치
     - 2) Elipse에서 톰캣서버를 제어할 수 있도록 설정(windows-prepernce-server-runtime xxxx-Tomcat9.0 버전 선택(고객사가 사용하는 버전을 선택하면 됌))
     - 3) 웹프로젝트에서 톰캣서버에서 실행할 수 있도록 환경설정()
 
+## 2021_10_26 (웹)
+
+## 2021_10_27 (HTML5)
+  - 크롤링: 완성된 페이지 HTML소스를 가지고 작업하는 방식
+  - get방식(요청) : 데이터를 조회할 때 사용 
+  - post방식(요청) : 데이터를 보내는 형식에 보통 사용
   
   
 
