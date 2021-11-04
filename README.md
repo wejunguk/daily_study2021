@@ -460,8 +460,18 @@
   - 경험기반 -> 본인이 주로 담당하는 역활
   - 소제목 : 추상적인 말 금지/ 내용과 연관성이 있어야함
 
-## 2021_11_03(bootstrap)
+## 2021_11_03 (bootstrap)
   - 설정된 node_modules 가져오기 : npm init
   - 안에 import된 파일들 가져오기 : npm install
-  
+
+## 2021_11_04 (JavaScript(eomcs-servlet_webapp_javascript_ex00~ex02))
+  - 기본문법 {
+      변수
+      연산자와 제어문
+      함수와 객체
+  }
+- HTML VS App
+- use strict; 선언하고! 문법작성하기
+  <script>의 제일 첫번째에 작성해야한다.
+
 
