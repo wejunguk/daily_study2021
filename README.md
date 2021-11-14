@@ -474,4 +474,18 @@
 - use strict; 선언하고! 문법작성하기
   <script>의 제일 첫번째에 작성해야한다.
 
+## 2021_11_08 (JaaScript(eomcs-servlet_webapp_javascript_ex05~) / ex06!!!!!부터 바로사용가능)
+  - 게시판 선택시 넘어가는 방법 : 총 3가지이다.
+  - 라인클릭 시 전체선택하기
 
+## 2021_11_09 (servlet, Filter, Listener)
+  - 들어온 요청의 servlet의 실행여부를 결정할 때 [Filter]
+  - 들어온 요청의 단순 보고용 / servlet의 영향을 주지 못한다. [Listener]
+  - 입력폼 요청은 메서드 post요청을한다. 
+    이때 getParameter 인코딩을 선언해 줘야 한다.[req.setCharacterEncoding("UTF-8");]
+    get요청인경우는 따로 선언을 안해도 된다(Tomcat7 기준. 이전버전은 깨짐)
+
+## 2021_11_10 (fileUpload/썸네일)
+  - GET요청 VS POST요청 (servlet_ex04)
+
+## 2021_11_11 (servlet refresh)
